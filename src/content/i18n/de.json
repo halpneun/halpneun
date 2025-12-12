@@ -3,6 +3,13 @@
     "data-protection": "Datenschutz",
     "imprint": "Impressum"
   },
+  "hero": {
+    "title": "Ihr Partner für erfolgreiche Systemeinführungen in der Produktion",
+    "subtitle": "Wirt.-Ing. Lukas Papenfuß",
+    "callToAction": {
+      "label": "Kontakt aufnehmen"
+    }
+  },
   "localeSelect": {
     "label": "Sprache auswählen",
     "options": {

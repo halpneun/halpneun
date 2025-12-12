@@ -1,0 +1,40 @@
+---
+import { Image } from "astro:assets";
+import { getI18n } from "../i18n/locale";
+import HeroLgImage from "../images/hero-lg.png";
+import HeroMdImage from "../images/hero-md.png";
+import HeroSmImage from "../images/hero-sm.png";
+import HeroImage from "../images/hero.png";
+
+const i18n = await getI18n(Astro.currentLocale!);
+---
+
+<section class="hero flex flex-col gap-4 relative text-white">
+  <div class="bg-blue-700 z-10 absolute inset-0 mix-blend-color"></div>
+  <Image src={HeroImage} alt="" class="-z-10 w-full sm:hidden self-center" />
+  <Image
+    src={HeroSmImage}
+    alt=""
+    class="-z-10 w-full hidden sm:block md:hidden self-center"
+  />
+  <Image
+    src={HeroMdImage}
+    alt=""
+    class="-z-10 w-full hidden md:block lg:hidden self-center"
+  />
+  <Image src={HeroLgImage} alt="" class="-z-10 hidden lg:block self-center" />
+  <div class="absolute inset-0 flex flex-col py-8 px-4 z-20 items-center">
+    <div class="container flex flex-col gap-4 h-full">
+      <h1 class="text-4xl">
+        {i18n.hero.title}
+      </h1>
+      <div class="mt-auto xl:text-xl">{i18n.hero.subtitle}</div>
+      <a
+        class="bg-yellow-300 text-blue-500 inline-flex self-start rounded-full px-4 py-2 font-bold"
+        href="#contact"
+      >
+        {i18n.hero.callToAction.label}
+      </a>
+    </div>
+  </div>
+</section>

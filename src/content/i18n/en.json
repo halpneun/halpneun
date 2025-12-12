@@ -3,6 +3,13 @@
     "data-protection": "Data Protection",
     "imprint": "Imprint"
   },
+  "hero": {
+    "title": "Your Partner for Successful System Implementations in Production",
+    "subtitle": "Dipl.-Ing. Lukas Papenfuß",
+    "callToAction": {
+      "label": "Get in Touch"
+    }
+  },
   "localeSelect": {
     "label": "Select language",
     "options": {

@@ -8,6 +8,13 @@ export const collections = {
         "data-protection": z.string(),
         imprint: z.string(),
       }),
+      hero: z.object({
+        title: z.string(),
+        subtitle: z.string(),
+        callToAction: z.object({
+          label: z.string(),
+        }),
+      }),
       localeSelect: z.object({
         label: z.string(),
         options: z.object({
