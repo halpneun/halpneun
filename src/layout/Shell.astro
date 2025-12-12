@@ -1,4 +1,5 @@
 ---
+import { ClientRouter } from "astro:transitions";
 import { LOCALE } from "../i18n/locale";
 import "../styles/global.css";
 import { icon } from "../util/icon";
@@ -20,6 +21,7 @@ const { container = false } = Astro.props;
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>Halpneun</title>
+    <ClientRouter />
   </head>
   <body class="flex flex-col absolute inset-0">
     <Header />
