@@ -61,7 +61,7 @@
 
       &::before {
         content: "";
-        background-image: url(/halpneun/icons/check.svg);
+        background-image: url(/icons/check.svg);
         display: block;
         flex-shrink: 0;
         height: 15px;
