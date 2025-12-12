@@ -5,7 +5,7 @@ import { getTranslatedEntry } from "../i18n/locale";
 import DeskImage from "../images/desk.png";
 import MeImage from "../images/me.png";
 
-const me = await getTranslatedEntry(Astro.url, "me");
+const me = await getTranslatedEntry(Astro.currentLocale!, "me");
 const { Content } = await render(me);
 ---
 

@@ -3,6 +3,8 @@ import tailwindcss from "@tailwindcss/vite";
 import { defineConfig, passthroughImageService } from "astro/config";
 
 export default defineConfig({
+  site: "https://halpneun.github.io",
+  base: "halpneun",
   image: {
     service: passthroughImageService(),
   },

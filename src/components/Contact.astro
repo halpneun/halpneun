@@ -2,7 +2,7 @@
 import { render } from "astro:content";
 import { getTranslatedEntry } from "../i18n/locale";
 
-const contact = await getTranslatedEntry(Astro.url, "contact");
+const contact = await getTranslatedEntry(Astro.currentLocale!, "contact");
 const { Content } = await render(contact);
 ---
 

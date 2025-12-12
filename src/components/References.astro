@@ -3,8 +3,11 @@ import { getCollection } from "astro:content";
 import { filterByLocale, getI18n } from "../i18n/locale";
 import Reference from "../ui/Reference.astro";
 
-const references = await getCollection("references", filterByLocale(Astro.url));
-const i18n = await getI18n(Astro.url);
+const references = await getCollection(
+  "references",
+  filterByLocale(Astro.currentLocale!)
+);
+const i18n = await getI18n(Astro.currentLocale!);
 ---
 
 <article class="article container mx-auto px-4">

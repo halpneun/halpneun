@@ -22,32 +22,21 @@ export function getLocaleFromUrl(url: URL) {
 }
 
 export async function getTranslatedEntry<C extends CollectionKey>(
-  url: URL,
+  locale: string,
   collection: C
 ) {
-  return getEntry(collection, getLocaleFromUrl(url))!;
+  return getEntry(collection, locale)!;
 }
 
-export async function getI18n(url: URL) {
-  const { data } = await getTranslatedEntry(url, "i18n");
+export async function getI18n(locale: string) {
+  const { data } = await getTranslatedEntry(locale, "i18n");
 
   return data;
 }
 
 export const filterByLocale =
   <C extends CollectionKey, E extends CollectionEntry<C>>(
-    locale: Intl.UnicodeBCP47LocaleIdentifier | URL
+    locale: Intl.UnicodeBCP47LocaleIdentifier
   ) =>
-  (entry: CollectionEntry<C>): entry is E => {
-    if (locale instanceof URL) {
-      locale = getLocaleFromUrl(locale);
-    }
-
-    return entry.id.split("/")[0] === locale;
-  };
-
-export function stripLocale(url: URL) {
-  const base = import.meta.env.BASE_URL.replace(/\/$/, "");
-  const pattern = `^${base}/(?:${LOCALE.supported.join("|")})(/|$)`;
-  return url.pathname.replace(new RegExp(pattern), `${base}/`);
-}
+  (entry: CollectionEntry<C>): entry is E =>
+    entry.id.split("/")[0] === locale;

@@ -3,7 +3,7 @@ import { render } from "astro:content";
 import { getTranslatedEntry } from "../i18n/locale";
 import Shell from "../layout/Shell.astro";
 
-const imprint = await getTranslatedEntry(Astro.url, "imprint");
+const imprint = await getTranslatedEntry(Astro.currentLocale!, "imprint");
 const { Content } = await render(imprint);
 ---
 
