@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blue-500: #0028a5;
+  --color-blue-700: #0028a5;
+
+  --color-yellow-500: #d3e11e;
+}
+
+@utility article {
+  @apply flex flex-col gap-10;
+}
+
+@utility article__header {
+  @apply font-bold text-lg underline underline-offset-6 decoration-2 decoration-yellow-500;
+}
+
+@utility section {
+  @apply flex flex-col gap-6;
+}
+
+@utility section__header {
+  @apply font-bold text-4xl;
+}
+
+@layer components {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+
+  .content {
+    @apply flex flex-col gap-6;
+
+    li {
+      @apply list-disc ml-6;
+    }
+  }
+}

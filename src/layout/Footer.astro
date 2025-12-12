@@ -1,0 +1,41 @@
+---
+import { getRelativeLocaleUrl } from "astro:i18n";
+import { getI18n } from "../i18n/locale";
+
+const i18n = await getI18n(Astro.url);
+---
+
+<footer class="flex flex-col gap-6 bg-blue-500 text-yellow-300">
+  <span class="flex flex-col gap-6 container m-auto relative py-8 px-4">
+    <a
+      class="bg-yellow-300 text-blue-500 rounded-md font-bold w-fit absolute -top-6 right-4"
+      href="#"
+      aria-label={i18n.footer.backToTop}
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 -960 960 960"
+        fill="currentColor"
+        class="w-12"
+      >
+        <path d="M480-528 296-344l-56-56 240-240 240 240-56 56-184-184Z"></path>
+      </svg>
+    </a>
+    <ul class="flex flex-col gap-2">
+      <li>
+        <a
+          href={getRelativeLocaleUrl(Astro.currentLocale!, "data-protection")}
+          class="underline">{i18n.routes["data-protection"]}</a
+        >
+      </li>
+      <li>
+        <a
+          href={getRelativeLocaleUrl(Astro.currentLocale!, "imprint")}
+          class="underline">{i18n.routes.imprint}</a
+        >
+      </li>
+    </ul>
+
+    <p>© {new Date().getFullYear()} HALPNEUN Solutions</p>
+  </span>
+</footer>

@@ -1,0 +1,22 @@
+{
+  "routes": {
+    "data-protection": "Datenschutz",
+    "imprint": "Impressum"
+  },
+  "localeSelect": {
+    "label": "Sprache auswählen",
+    "options": {
+      "de": "Deutsch",
+      "en": "Englisch"
+    }
+  },
+  "references": {
+    "title": "Referenzen",
+    "projects": {
+      "title": "Projektreferenzen und Arbeitsweise"
+    }
+  },
+  "footer": {
+    "backToTop": "Zum Seitenanfang"
+  }
+}

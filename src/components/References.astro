@@ -1,0 +1,18 @@
+---
+import { getCollection } from "astro:content";
+import { filterByLocale, getI18n } from "../i18n/locale";
+import Reference from "../ui/Reference.astro";
+
+const references = await getCollection("references", filterByLocale(Astro.url));
+const i18n = await getI18n(Astro.url);
+---
+
+<article class="article container mx-auto px-4">
+  <h2 class="article__header">{i18n.references.title}</h2>
+  <section class="section">
+    <h3 class="section__header">
+      {i18n.references.projects.title}
+    </h3>
+    {references.map((reference) => <Reference entry={reference} />)}
+  </section>
+</article>

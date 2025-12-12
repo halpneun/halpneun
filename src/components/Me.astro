@@ -1,0 +1,29 @@
+---
+import { Image } from "astro:assets";
+import { render } from "astro:content";
+import { getTranslatedEntry } from "../i18n/locale";
+import DeskImage from "../images/desk.png";
+import MeImage from "../images/me.png";
+
+const me = await getTranslatedEntry(Astro.url, "me");
+const { Content } = await render(me);
+---
+
+<article class="article container mx-auto px-4">
+  <h2 class="article__header">{me.data.title}</h2>
+  <div class="flex flex-col gap-6 md:flex-row-reverse">
+    <div class="flex-1">
+      <div class="flex aspect-[1.16/1] w-fit self-start">
+        <Image
+          class="self-start border-solid border-white border-b-[0.75rem] border-r-[0.75rem]"
+          src={MeImage}
+          alt="Lukas Papenfuß"
+        />
+        <Image class="self-end -translate-x-1/2 -z-10" src={DeskImage} alt="" />
+      </div>
+    </div>
+    <div class="content flex-1">
+      <Content />
+    </div>
+  </div>
+</article>

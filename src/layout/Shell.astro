@@ -1,0 +1,36 @@
+---
+import { LOCALE } from "../i18n/locale";
+import "../styles/global.css";
+import { icon } from "../util/icon";
+import Footer from "./Footer.astro";
+import Header from "./Header.astro";
+
+interface Props {
+  container?: boolean;
+  nonPadded?: boolean;
+}
+
+const { container = false } = Astro.props;
+---
+
+<html lang={Astro.currentLocale ?? Astro.preferredLocale ?? LOCALE.default}>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href={icon("logo")} />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Halpneun</title>
+  </head>
+  <body class="flex flex-col absolute inset-0">
+    <Header />
+    <main
+      class="flex flex-col gap-16 pb-16 flex-auto"
+      class:list={{
+        "container mx-auto": container,
+      }}
+    >
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

@@ -1,0 +1,22 @@
+---
+import { getRelativeLocaleUrl } from "astro:i18n";
+import LocaleSelect from "../ui/LocaleSelect.astro";
+import { icon } from "../util/icon";
+
+const home = Astro.currentLocale
+  ? getRelativeLocaleUrl(Astro.currentLocale, "/")
+  : "/";
+---
+
+<header class="p-4">
+  <div class="container m-auto">
+    <div class="flex items-center">
+      <a href={home}>
+        <img src={icon("logo")} alt="Halpneun" />
+      </a>
+      <div class="ml-auto">
+        <LocaleSelect />
+      </div>
+    </div>
+  </div>
+</header>

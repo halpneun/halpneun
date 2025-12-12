@@ -1,0 +1,14 @@
+---
+import { render } from "astro:content";
+import { getTranslatedEntry } from "../i18n/locale";
+import Shell from "../layout/Shell.astro";
+
+const dataProtection = await getTranslatedEntry(Astro.url, "data-protection");
+const { Content } = await render(dataProtection);
+---
+
+<Shell container>
+  <span class="content">
+    <Content />
+  </span>
+</Shell>

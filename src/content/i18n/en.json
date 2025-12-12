@@ -1,0 +1,22 @@
+{
+  "routes": {
+    "data-protection": "Data Protection",
+    "imprint": "Imprint"
+  },
+  "localeSelect": {
+    "label": "Select language",
+    "options": {
+      "de": "German",
+      "en": "English"
+    }
+  },
+  "references": {
+    "title": "References",
+    "projects": {
+      "title": "Project References and Approach"
+    }
+  },
+  "footer": {
+    "backToTop": "Back to top"
+  }
+}

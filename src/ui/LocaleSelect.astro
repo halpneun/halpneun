@@ -1,0 +1,22 @@
+---
+import { getAbsoluteLocaleUrl } from "astro:i18n";
+import { getI18n, LOCALE, stripLocale } from "../i18n/locale";
+const i18n = await getI18n(Astro.url);
+console.log(stripLocale(Astro.url));
+---
+
+<ul aria-label={i18n.localeSelect.label} class="flex gap-4">
+  {
+    LOCALE.supported.map((locale) => (
+      <li>
+        <a
+          aria-label={i18n.localeSelect.options[locale]}
+          href={getAbsoluteLocaleUrl(locale, stripLocale(Astro.url))}
+          class:list={{ "font-bold underline": locale === Astro.currentLocale }}
+        >
+          {locale}
+        </a>
+      </li>
+    ))
+  }
+</ul>

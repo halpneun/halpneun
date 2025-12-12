@@ -1,0 +1,31 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { render } from "astro:content";
+import { icon } from "../util/icon";
+
+interface Props {
+  entry: CollectionEntry<"references">;
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<details class="reference group">
+  <summary class="cursor-pointer flex items-center hover:underline">
+    {entry.data.title}
+    <span
+      class="group-open:bg-yellow-300 group-open:border-none border-solid border-2 border-yellow-300 rounded-md h-9 w-9 ml-auto flex flex-col items-center justify-center"
+    >
+      <span class="group-open:hidden">
+        <img class="m-auto" src={icon("plus")} alt="" />
+      </span>
+      <span class="[.group:not([open])_&]:hidden">
+        <img class="m-auto" src={icon("minus")} alt="" />
+      </span>
+    </span>
+  </summary>
+  <span class="content flex flex-col pt-4">
+    <Content />
+  </span>
+</details>

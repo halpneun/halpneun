@@ -1,0 +1,16 @@
+---
+import { render } from "astro:content";
+import { getTranslatedEntry } from "../i18n/locale";
+
+const contact = await getTranslatedEntry(Astro.url, "contact");
+const { Content } = await render(contact);
+---
+
+<span class="bg-blue-500 text-white py-8 px-4">
+  <article class="article container mx-auto">
+    <h2 class="article__header">{contact.data.title}</h2>
+    <span class="content">
+      <Content />
+    </span>
+  </article>
+</span>
