@@ -7,9 +7,9 @@ const i18n = await getI18n(Astro.currentLocale!);
 
 <footer class="flex flex-col gap-6 bg-blue-500 text-yellow-300">
   <span class="flex flex-col gap-6 container m-auto relative py-8 px-4">
-    <a
+    <button
+      id="back-to-top"
       class="bg-yellow-300 text-blue-500 rounded-md font-bold w-fit absolute -top-6 right-4"
-      href="#"
       aria-label={i18n.footer.backToTop}
     >
       <svg
@@ -20,7 +20,7 @@ const i18n = await getI18n(Astro.currentLocale!);
       >
         <path d="M480-528 296-344l-56-56 240-240 240 240-56 56-184-184Z"></path>
       </svg>
-    </a>
+    </button>
     <ul class="flex flex-col gap-2">
       <li>
         <a
@@ -39,3 +39,9 @@ const i18n = await getI18n(Astro.currentLocale!);
     <p>© {new Date().getFullYear()} HALPNEUN Solutions</p>
   </span>
 </footer>
+
+<script>
+  const backToTopButton = document.getElementById("back-to-top")!;
+
+  backToTopButton.addEventListener("click", () => window.scrollTo({ top: 0 }));
+</script>
