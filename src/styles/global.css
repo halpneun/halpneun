@@ -43,6 +43,10 @@
     li {
       @apply list-disc ml-6;
     }
+
+    a {
+      @apply underline;
+    }
   }
 
   .tag-list {
