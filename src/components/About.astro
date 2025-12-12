@@ -1,0 +1,14 @@
+---
+import { render } from "astro:content";
+import { getTranslatedEntry } from "../i18n/locale";
+
+const about = await getTranslatedEntry(Astro.currentLocale!, "about");
+const { Content } = await render(about);
+---
+
+<article class="article container mx-auto px-4">
+  <h2 class="article__header">{about.data.title}</h2>
+  <span class="content">
+    <Content />
+  </span>
+</article>

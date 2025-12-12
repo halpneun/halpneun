@@ -44,6 +44,12 @@ export const collections = {
   imprint: defineCollection({
     type: "content",
   }),
+  about: defineCollection({
+    type: "content",
+    schema: z.object({
+      title: z.string(),
+    }),
+  }),
   me: defineCollection({
     type: "content",
     schema: z.object({

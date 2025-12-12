@@ -23,6 +23,10 @@
   @apply font-bold text-4xl;
 }
 
+@utility tag {
+  @apply inline-flex border-2 rounded-full border-solid border-blue-500 py-1 px-2 font-bold;
+}
+
 @layer components {
   h1,
   h2,
@@ -38,6 +42,31 @@
 
     li {
       @apply list-disc ml-6;
+    }
+  }
+
+  .tag-list {
+    @apply flex flex-wrap gap-2;
+
+    li {
+      @apply tag m-0;
+    }
+  }
+
+  .check-list {
+    @apply flex flex-col gap-0.5;
+
+    li {
+      @apply inline-flex items-center gap-2 m-0;
+
+      &::before {
+        content: "";
+        background-image: url(/halpneun/icons/check.svg);
+        display: block;
+        flex-shrink: 0;
+        height: 15px;
+        width: 19px;
+      }
     }
   }
 }
