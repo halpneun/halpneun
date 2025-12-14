@@ -6,7 +6,7 @@ const contact = await getTranslatedEntry(Astro.currentLocale!, "contact");
 const { Content } = await render(contact);
 ---
 
-<span class="bg-blue-500 text-white py-8 px-4">
+<span class="contact bg-blue-500 text-white py-8 px-4">
   <article class="article container mx-auto">
     <h2 id="contact" class="article__header">{contact.data.title}</h2>
     <span class="content">
