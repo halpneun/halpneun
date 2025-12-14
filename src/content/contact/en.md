@@ -15,4 +15,4 @@ I support you where internal resources are scarce: in the analysis, planning, an
 - Interface competence – technical IT, production, management & IT service providers
 - In a non-binding initial meeting, we discuss your goals, scope, and possible timeframes.
 
-In a non-binding initial meeting, we discuss your goals, scope, and possible timeframes: **[info@halpneun.de](mailto:info@halpneun.de)**
+In a non-binding initial meeting, we discuss your goals, scope, and possible timeframes: [kontakt@halpneun.de](mailto:kontakt@halpneun.de)

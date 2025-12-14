@@ -15,4 +15,4 @@ Ich unterstütze Sie dort, wo interne Ressourcen knapp sind: bei der Analyse, Pl
 - Schnittstellenkompetent – technische IT, Produktion, Management & IT-Dienstleister
 - In einem unverbindlichen Erstgespräch sprechen wir über Ihre Ziele, Umfang und mögliche Einsatzzeiträume.
 
-In einem unverbindlichen Erstgespräch sprechen wir über Ihre Ziele, Umfang und mögliche Einsatzzeiträume: **[info@halpneun.de](mailto:info@halpneun.de)**
+In einem unverbindlichen Erstgespräch sprechen wir über Ihre Ziele, Umfang und mögliche Einsatzzeiträume: [kontakt@halpneun.de](mailto:kontakt@halpneun.de)

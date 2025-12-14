@@ -37,6 +37,10 @@
     @apply font-bold;
   }
 
+  a[href="mailto:kontakt@halpneun.de"] {
+    @apply text-yellow-300 font-bold;
+  }
+
   .content {
     @apply flex flex-col gap-6;
 
