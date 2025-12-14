@@ -40,3 +40,21 @@ export const filterByLocale =
   ) =>
   (entry: CollectionEntry<C>): entry is E =>
     entry.id.split("/")[0] === locale;
+
+export function stripBaseAndLocale(url: URL) {
+  const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+  let path = url.pathname;
+
+  if (base && path.startsWith(base)) {
+    path = path.slice(base.length);
+    if (!path.startsWith("/")) path = "/" + path;
+  }
+
+  path = path.replace(
+    new RegExp(`^/(?:${LOCALE.supported.join("|")})(/|$)`),
+    "/"
+  );
+
+  return path;
+}

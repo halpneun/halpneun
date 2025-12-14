@@ -5,8 +5,18 @@ export const collections = {
     type: "data",
     schema: z.object({
       routes: z.object({
-        "data-protection": z.string(),
-        imprint: z.string(),
+        "": z.object({
+          label: z.string(),
+          description: z.string(),
+        }),
+        "data-protection": z.object({
+          label: z.string(),
+          description: z.string(),
+        }),
+        imprint: z.object({
+          label: z.string(),
+          description: z.string(),
+        }),
       }),
       hero: z.object({
         title: z.string(),

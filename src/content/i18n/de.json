@@ -1,7 +1,17 @@
 {
   "routes": {
-    "data-protection": "Datenschutz",
-    "imprint": "Impressum"
+    "": {
+      "label": "Halpneun",
+      "description": "Ihr Partner für erfolgreiche Systemeinführungen in der Produktion - Wirt.-Ing. Lukas Papenfuß"
+    },
+    "data-protection": {
+      "label": "Datenschutz",
+      "description": "Informationen zum Datenschutz"
+    },
+    "imprint": {
+      "label": "Impressum",
+      "description": "Rechtliche Angaben zum Betreiber der Webseite"
+    }
   },
   "hero": {
     "title": "Ihr Partner für erfolgreiche Systemeinführungen in der Produktion",

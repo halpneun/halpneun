@@ -25,13 +25,13 @@ const i18n = await getI18n(Astro.currentLocale!);
       <li>
         <a
           href={getRelativeLocaleUrl(Astro.currentLocale!, "data-protection")}
-          class="underline">{i18n.routes["data-protection"]}</a
+          class="underline">{i18n.routes["data-protection"].label}</a
         >
       </li>
       <li>
         <a
           href={getRelativeLocaleUrl(Astro.currentLocale!, "imprint")}
-          class="underline">{i18n.routes.imprint}</a
+          class="underline">{i18n.routes.imprint.label}</a
         >
       </li>
     </ul>

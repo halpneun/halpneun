@@ -1,6 +1,6 @@
 ---
 import { ClientRouter } from "astro:transitions";
-import { LOCALE } from "../i18n/locale";
+import { getI18n, LOCALE, stripBaseAndLocale } from "../i18n/locale";
 import "../styles/global.css";
 import { icon } from "../util/icon";
 import Footer from "./Footer.astro";
@@ -12,15 +12,27 @@ interface Props {
 }
 
 const { container = false } = Astro.props;
+const i18n = await getI18n(Astro.currentLocale!);
+
+const routeMeta =
+  i18n.routes[stripBaseAndLocale(Astro.url).replace(/^\/|\/$/g, "") as ""];
+const homeRouteMeta = i18n.routes[""];
+
+const title = routeMeta?.label
+  ? `${homeRouteMeta.label} - ${routeMeta.label}`
+  : homeRouteMeta.label;
+
+const description = routeMeta?.description || homeRouteMeta.description;
 ---
 
 <html lang={Astro.currentLocale ?? Astro.preferredLocale ?? LOCALE.default}>
   <head>
     <meta charset="utf-8" />
+    <title>{title}</title>
     <link rel="icon" type="image/svg+xml" href={icon("logo")} />
     <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
     <meta name="generator" content={Astro.generator} />
-    <title>Halpneun</title>
     <ClientRouter />
   </head>
   <body class="flex flex-col absolute inset-0">

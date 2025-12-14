@@ -1,25 +1,7 @@
 ---
 import { getRelativeLocaleUrl } from "astro:i18n";
-import { getI18n, LOCALE } from "../i18n/locale";
+import { getI18n, LOCALE, stripBaseAndLocale } from "../i18n/locale";
 const i18n = await getI18n(Astro.currentLocale!);
-
-function stripBaseAndLocale(url: URL) {
-  const base = import.meta.env.BASE_URL.replace(/\/$/, "");
-
-  let path = url.pathname;
-
-  if (base && path.startsWith(base)) {
-    path = path.slice(base.length);
-    if (!path.startsWith("/")) path = "/" + path;
-  }
-
-  path = path.replace(
-    new RegExp(`^/(?:${LOCALE.supported.join("|")})(/|$)`),
-    "/"
-  );
-
-  return path;
-}
 ---
 
 <ul aria-label={i18n.localeSelect.label} class="flex gap-4">

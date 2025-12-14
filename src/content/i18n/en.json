@@ -1,7 +1,17 @@
 {
   "routes": {
-    "data-protection": "Data Protection",
-    "imprint": "Imprint"
+    "": {
+      "label": "Halpneun",
+      "description": "Your Partner for Successful System Implementations in Production - Dipl.-Ing. Lukas Papenfuß"
+    },
+    "data-protection": {
+      "label": "Data Protection",
+      "description": "Information about data protection"
+    },
+    "imprint": {
+      "label": "Imprint",
+      "description": "Legal information about the website operator"
+    }
   },
   "hero": {
     "title": "Your Partner for Successful System Implementations in Production",
