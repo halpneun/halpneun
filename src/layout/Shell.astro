@@ -18,9 +18,10 @@ const routeMeta =
   i18n.routes[stripBaseAndLocale(Astro.url).replace(/^\/|\/$/g, "") as ""];
 const homeRouteMeta = i18n.routes[""];
 
-const title = routeMeta?.label
-  ? `${homeRouteMeta.label} - ${routeMeta.label}`
-  : homeRouteMeta.label;
+const title =
+  routeMeta?.label && routeMeta.label !== homeRouteMeta.label
+    ? `${homeRouteMeta.label} - ${routeMeta.label}`
+    : homeRouteMeta.label;
 
 const description = routeMeta?.description || homeRouteMeta.description;
 ---
