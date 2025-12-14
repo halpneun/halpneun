@@ -40,8 +40,8 @@ const i18n = await getI18n(Astro.currentLocale!);
   </span>
 </footer>
 
-<script>
-  const backToTopButton = document.getElementById("back-to-top")!;
+<script is:inline>
+  const backToTopButton = document.getElementById("back-to-top");
 
   backToTopButton.addEventListener("click", () => window.scrollTo({ top: 0 }));
 </script>
