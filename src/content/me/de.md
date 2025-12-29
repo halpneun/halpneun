@@ -14,4 +14,5 @@ Mit Halpneun Solutions bringe ich dieses Know-how gezielt in mittelständischen 
 Sie können auf mich zählen.
 
 Mit freundlichen Grüßen
+
 Lukas Papenfuß
