@@ -1,8 +1,7 @@
 ---
 title: Über mich
 ---
-
-Gebürtig komme ich aus Herzberg am Harz, seit meinem Bachelor bin ich in Göttingen verwurzelt. Mein Masterstudium habe ich in Leipzig abgeschlossen. Darüber hinaus bin ich gern unterwegs – mal in Deutschland, mal darüber hinaus. In meiner Freizeit zieht es mich zum Triathlon, und Urlaubstage verbringe ich am liebsten auf dem Rennrad – in der Schweiz, in Italien oder wo es mich sonst hinträgt. Triathlon ist für mich trotz der nötigen Leistung vor allem Teamsport: Mit dem ASC starte ich in der Triathlon-Liga und trainiere am liebsten gemeinsam. Als Ausgleich zum Sport und zur Arbeit spiele ich Klavier. Für Neues bin ich immer offen, und ich mag es, verschiedene Interessen zu mixen.
+Gebürtig komme ich aus Herzberg am Harz, seit meinem Bachelor bin ich in Göttingen verwurzelt. Mein Masterstudium habe ich in Leipzig abgeschlossen. Ich reise gern – in Deutschland und darüber hinaus. In meiner Freizeit bin ich leidenschaftlicher Triathlet und Urlaubstage verbringe ich am liebsten auf dem Rennrad – in der Schweiz, in Italien oder wo es mich sonst hinträgt. Triathlon ist für mich trotz des Einzelsports vor allem ein Teamsport: Mit dem ASC starte ich in der Triathlon-Liga und trainiere am liebsten gemeinsam. Als Ausgleich zum Sport und zur Arbeit spiele ich hin und wieder Klavier. Für Neues bin ich immer offen, und ich mag es, verschiedene Interessen zu mixen.
 
 <div class="section__header pb-4"><span class="text-blue-500">Sie können auf</span> mich zählen</div>
 

@@ -12,6 +12,9 @@ const { Content } = await render(me);
 <article class="article container mx-auto px-4">
   <h2 class="article__header">{me.data.title}</h2>
   <div class="flex flex-col gap-6">
+    <div class="content flex-1">
+      <Content />
+    </div>
     <div class="flex-1">
       <div class="flex aspect-[1.16/1] w-fit self-start">
         <Image
@@ -21,9 +24,6 @@ const { Content } = await render(me);
         />
         <Image class="self-end -translate-x-1/2 -z-10" src={DeskImage} alt="" />
       </div>
-    </div>
-    <div class="content flex-1">
-      <Content />
     </div>
   </div>
 </article>

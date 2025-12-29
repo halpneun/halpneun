@@ -1,8 +1,7 @@
 ---
 title: About Me
 ---
-
-I was born in Herzberg am Harz and my roots are in Göttingen since my bachelor's degree. I completed my master's degree in Leipzig. I also like to travel – in Germany and beyond. In my free time, I am a triathlet and I love to spend my holidays on the race bike – in Switzerland, Italy, or wherever the road takes me. For me, triathlon is not just about effort, it is also a team sport: I compete with ASC in the triathlon league and like to train with others. To balance sport and work, I play the piano. I am always open to new things and enjoy combining different interests.  
+I was born in Herzberg am Harz and my roots are in Göttingen since my bachelor's degree. I completed my master's in Leipzig. I also like to travel – in Germany and beyond. In my free time, I am a triathlet and I love to spend my holidays on the race bike – in Switzerland, Italy, or wherever the road takes me. For me, triathlon is not just about effort, it is also a team sport: I compete with the ASC Göttingen in the triathlon league and like to train with others. To balance sport and work, I play the piano. I am always open to new things and enjoy combining different interests.  
 
 <div class="section__header pb-4"><span class="text-blue-500">You can count</span> on me</div>
 
