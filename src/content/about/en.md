@@ -2,28 +2,28 @@
 title: Services
 ---
 
-<div class="section__header pb-4"><span class="text-blue-500">My role:</span> The bridge between business, IT, and service providers</div>
+<div class="section__header pb-4"><span class="text-blue-500">My Role:</span> Bridge between business, IT, and service providers</div>
 
-HALPNEUN Solutions supports medium-sized manufacturing companies exactly where digitalization projects often stall: limited internal capacities, unclear requirements, and a lack of coordination between production, IT, and external service providers.
+HALPNEUN Solutions supports medium-sized manufacturing companies exactly where digital projects often get stuck: limited internal resources, unclear requirements, and missing coordination between production, IT, and external service providers.
 
 <ul class="check-list">
-    <li>Closing capacity gaps in business and IT</li>
-    <li>Precise requirements gathering and translation into technical specifications</li>
-    <li>Structured project work including planning, testing, and documentation</li>
-    <li>Coordination of all interfaces between business units, IT, and service providers</li>
-    <li>Risk reduction in implementation through a methodical approach</li>
-    <li>Support for rollouts and conducting training sessions</li>
-    <li>Flexible support on an hourly basis – without long-term resource commitment</li>
-    <li>This ensures the successful introduction of digital manufacturing systems such as MES, CAQ, MDE, or EHS – from the initial analysis workshop to a successful go-live.</li>
+    <li>Filling resource gaps in business departments and IT</li>
+    <li>Flexible support on an hourly basis – no long-term commitments</li>
+    <li>Clear requirements gathering and translation into technical specifications</li>
+    <li>Project planning, test coordination, and documentation</li>
+    <li>Acting as interface between business departments, IT, and service providers</li>
+    <li>Supporting rollouts and conducting employee training</li>
 </ul>
+
+This ensures the successful introduction of digital manufacturing systems such as MES, CAQ, or MDE – from the first analysis workshop to a smooth go-live.
 
 <ul class="tag-list">
     <li>ERP systems</li>
     <li>SAP-PP</li>
     <li>Interfaces</li>
     <li>Manufacturing Execution System (MES)</li>
-    <li>Computer Aided Quality (CAQ)</li>
-    <li>Machine Data Collection (MDE)</li>
+    <li>Computer-Aided Quality (CAQ)</li>
+    <li>Machine Data Connection (MDC)</li>
     <li>Master data management in production</li>
-    <li>Business processes</li>
+    <li>Optimized business processes</li>
 </ul>

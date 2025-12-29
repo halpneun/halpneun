@@ -4,15 +4,16 @@ title: Kontakt
 
 <div class="section__header pb-4">Kontakt aufnehmen: Ich bin für Sie da</div>
 
-Ich unterstütze Sie dort, wo interne Ressourcen knapp sind: bei der Analyse, Planung und Umsetzung komplexer Produktionssysteme. Mit Erfahrung aus globalen MES-, CAQ- und MDE-Projekten sorge ich für Struktur, Geschwindigkeit und klare Ergebnisse.
+Ich bin erreichbar für unverbindliche Erstgespräche, um Ihre Ziele, Projektumfang und mögliche Einsatzzeiträume zu besprechen.
 
-**Warum mit mir zusammenarbeiten?**
+**Warum mit HALPNEUN Solutions?**
 
-- Flexibel & skalierbar – Unterstützung bereits ab 5 Std./Woche
-- Hands-on – nicht nur beraten, sondern aktive Mitarbeit bis zum GoLive
-- Technisch & prozessual versiert – ideal für komplexe Fertigungsumgebungen
-- Erfahren im internationalen Projektumfeld
-- Schnittstellenkompetent – technische IT, Produktion, Management & IT-Dienstleister
-- In einem unverbindlichen Erstgespräch sprechen wir über Ihre Ziele, Umfang und mögliche Einsatzzeiträume.
+<ul class="check-list">
+    <li>Flexible Unterstützung bereits ab 5 Std./Woche</li>
+    <li>Hands-on Mitarbeit bis zum Go-Live</li>
+    <li>Erfahrung in komplexen Fertigungsumgebungen</li>
+    <li>Erfahren im internationalen Projektumfeld</li>
+    <li>Schnittstellenkompetenz zwischen IT, Produktion, Management und externen Partnern</li>
+</ul>
 
-In einem unverbindlichen Erstgespräch sprechen wir über Ihre Ziele, Umfang und mögliche Einsatzzeiträume: [kontakt@halpneun.de](mailto:kontakt@halpneun.de)
+Jetzt Termin vereinbaren: **[info@halpneun.de](mailto:kontakt@halpneun.de)**

@@ -1,38 +1,43 @@
 # Datenschutz
 
-Verantwortlicher Verantwortlich für die Datenverarbeitung auf dieser Website ist: Lukas Papenfuß / HALPNEUN Solutions 37412 Herzberg am Harz E-Mail: kontakt@halpneun.de
+## Verantwortlicher
+Verantwortlich für die Datenverarbeitung auf dieser Website ist:
 
-Zugriffsdaten und Server-Logfiles Der Hosting-Anbieter dieser Website erhebt automatisch Daten in sogenannten Server-Logfiles. Dazu gehören:
+Lukas Papenfuß / HALPNEUN Solutions  
+37412 Herzberg am Harz  
+E-Mail: [kontakt@halpneun.de](mailto:kontakt@halpneun.de)
 
-Browsertyp und -version
-verwendetes Betriebssystem
-Referrer URL
-Hostname des zugreifenden Rechners
-Uhrzeit der Serveranfrage
-IP-Adresse
-Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO zur technischen Bereitstellung der Website.
+## Erhebung und Verarbeitung personenbezogener Daten
+Beim Besuch dieser Website werden automatisch folgende Daten erhoben:
 
-Kontaktformular Wenn Sie über das Kontaktformular Anfragen senden, werden alle eingegebenen Daten zur Bearbeitung Ihrer Anfrage und für mögliche Anschlussfragen gespeichert.
-Rechtsgrundlagen: Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen) Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse) Die Daten werden nicht ohne Ihre Einwilligung an Dritte weitergegeben.
+- IP-Adresse  
+- Browsertyp und Version  
+- Verwendetes Betriebssystem  
+- Referrer URL  
+- Uhrzeit des Zugriffs  
 
-E-Mail-Kontakt Bei Kontaktaufnahme per E-Mail werden die übermittelten Daten zur Bearbeitung gespeichert. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b oder f DSGVO.
+Die Daten werden ausschließlich zur Bereitstellung und Sicherheit der Website verarbeitet.  
+Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse).
 
-Cookies Diese Website kann Cookies verwenden, um bestimmte Funktionen bereitzustellen oder zu analysieren. Die Verwendung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO oder Art. 6 Abs. 1 lit. a DSGVO (Einwilligung).
+Hinweis zu Betroffenenrechten: Sie können jederzeit Berichtigung, Löschung oder Einschränkung der Verarbeitung Ihrer Daten verlangen. Wir setzen dies entsprechend um.
 
-Sie können das Speichern von Cookies im Browser deaktivieren oder löschen.
+## Cookies
+Diese Website kann Cookies verwenden, z. B. für technische Funktionen oder Analysen.  
+Sie können Cookies im Browser deaktivieren oder löschen.  
+Rechtsgrundlage: Art. 6 Abs. 1 lit. a/f DSGVO.
 
-Hosting / Auftragsverarbeitung Die Website wird bei einem externen Hosting-Anbieter betrieben, der technische Daten wie IP-Adressen verarbeitet. Es besteht ein Vertrag zur Auftragsverarbeitung gemäß Art. 28 DSGVO.
+## E-Mail-Kontakt
+Wenn Sie uns per E-Mail kontaktieren, werden die übermittelten Daten ausschließlich zur Bearbeitung Ihrer Anfrage genutzt und nicht ohne Ihre Einwilligung weitergegeben.  
+Rechtsgrundlage: Art. 6 Abs. 1 lit. b/f DSGVO.  
 
-Ihre Rechte Ihre Rechte nach DSGVO umfassen:
+Auf Anfrage werden diese Daten gelöscht, sofern keine gesetzlichen Aufbewahrungspflichten bestehen.
 
-Auskunft (Art. 15)
-Berichtigung (Art. 16)
-Löschung (Art. 17)
-Einschränkung der Verarbeitung (Art. 18)
-Datenübertragbarkeit (Art. 20)
-Widerspruch gegen die Verarbeitung (Art. 21)
-Sie können erteilte Einwilligungen jederzeit widerrufen.
+## Ihre Rechte
+Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch.  
+Bitte senden Sie Ihre Anfrage an: [kontakt@halpneun.de](mailto:kontakt@halpneun.de).
 
-Beschwerderecht Sie haben das Recht, sich bei einer Datenschutzaufsichtsbehörde zu beschweren.
+## Beschwerderecht
+Sie können sich bei einer zuständigen Datenschutzaufsichtsbehörde beschweren, wenn Sie der Ansicht sind, dass die Verarbeitung Ihrer personenbezogenen Daten nicht DSGVO-konform erfolgt.
 
-Änderungen dieser Datenschutzerklärung Diese Datenschutzerklärung wird bei Bedarf angepasst, um Änderungen der Website oder rechtliche Vorgaben zu berücksichtigen.
+## Änderungen dieser Datenschutzerklärung
+Diese Datenschutzerklärung wird bei Bedarf angepasst, z. B. bei Änderung der Website oder rechtlicher Vorgaben.

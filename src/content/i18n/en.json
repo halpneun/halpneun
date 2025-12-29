@@ -2,7 +2,7 @@
   "routes": {
     "": {
       "label": "Halpneun",
-      "description": "Your Partner for Successful System Implementations in Production - Dipl.-Ing. Lukas Papenfuß"
+      "description": "Your Partner for Successful System Implementations in Production - M.Sc. Lukas Papenfuß"
     },
     "data-protection": {
       "label": "Data Protection",
@@ -15,7 +15,7 @@
   },
   "hero": {
     "title": "Your Partner for Successful System Implementations in Production",
-    "subtitle": "Dipl.-Ing. Lukas Papenfuß",
+    "subtitle": "M.Sc. Lukas Papenfuß",
     "callToAction": {
       "label": "Get in Touch"
     }

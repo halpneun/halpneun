@@ -2,17 +2,18 @@
 title: Contact
 ---
 
-<div class="section__header pb-4">Get in touch: I am here for you</div>
+**Get in touch: I’m here for you**
 
-I support you where internal resources are scarce: in the analysis, planning, and implementation of complex production systems. With experience from global MES, CAQ, and MDE projects, I ensure structure, speed, and clear results.
+I am available for non-binding initial conversations to discuss your goals, project scope, and possible timelines.
 
-**Why work with me?**
+**Why choose HALPNEUN Solutions?**
 
-- Flexible & scalable – support starting from just 5 hours/week
-- Hands-on – not just consulting, but active involvement up to GoLive
-- Technically & process-savvy – ideal for complex manufacturing environments
-- Experienced in international project settings
-- Interface competence – technical IT, production, management & IT service providers
-- In a non-binding initial meeting, we discuss your goals, scope, and possible timeframes.
+<ul class="check-list">
+    <li>Flexible support starting from 5 hours/week</li>
+    <li>Hands-on involvement until go-live</li>
+    <li>Experience in complex manufacturing environments</li>
+    <li>Experienced in international project settings</li>
+    <li>Acting as interface between IT, production, management, and external partners</li>
+</ul>
 
-In a non-binding initial meeting, we discuss your goals, scope, and possible timeframes: [kontakt@halpneun.de](mailto:kontakt@halpneun.de)
+Get in touch here: **[info@halpneun.de](mailto:kontakt@halpneun.de)**
