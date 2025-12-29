@@ -16,4 +16,13 @@ Ich bin erreichbar für unverbindliche Erstgespräche, um Ihre Ziele, Projektumf
     <li>Schnittstellenkompetenz zwischen IT, Produktion, Management und externen Partnern</li>
 </ul>
 
-Jetzt Termin vereinbaren: **[info@halpneun.de](mailto:kontakt@halpneun.de)**
+Jetzt Termin vereinbaren: **[kontakt@halpneun.de](mailto:kontakt@halpneun.de)**
+
+<p style="display:flex; align-items:center; gap:0.3em;">
+    Schreiben Sie mir gern auch auf LinkedIn:
+    <a href="https://www.linkedin.com/company/72084232" target="_blank">
+        <img src="src/images/linkedin-brands-white.png" alt="LinkedIn HALPNEUN Solutions" style="height:1em; width:auto;">
+    </a>
+</p>
+
+<!-- Icon-Quelle: LinkedIn Icon von Icons8 - https://icons8.com/icon/8808/linkedin -->
