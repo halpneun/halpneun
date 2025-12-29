@@ -17,7 +17,6 @@ Ich bin erreichbar für unverbindliche Erstgespräche, um Ihre Ziele, Projektumf
 </ul>
 
 Jetzt Termin vereinbaren: **[kontakt@halpneun.de](mailto:kontakt@halpneun.de)**
-
 <p style="display:flex; align-items:center; gap:0.3em;">
     Schreiben Sie mir gern auch auf LinkedIn:
     <a href="https://www.linkedin.com/company/72084232" target="_blank">

@@ -1,7 +1,7 @@
 ---
 title: Über mich
 ---
-Gebürtig komme ich aus Herzberg am Harz, seit meinem Bachelor bin ich in Göttingen verwurzelt. Mein Masterstudium habe ich in Leipzig abgeschlossen. Ich reise gern – in Deutschland und darüber hinaus. In meiner Freizeit bin ich leidenschaftlicher Triathlet und Urlaubstage verbringe ich am liebsten auf dem Rennrad – in der Schweiz, in Italien oder wo es mich sonst hinträgt. Triathlon ist für mich trotz des Einzelsports vor allem ein Teamsport: Mit dem ASC starte ich in der Triathlon-Liga und trainiere am liebsten gemeinsam. Als Ausgleich zum Sport und zur Arbeit spiele ich hin und wieder Klavier. Für Neues bin ich immer offen, und ich mag es, verschiedene Interessen zu mixen.
+Ich stamme ursprünglich aus Herzberg am Harz und habe in Göttingen und Leipzig studiert. Seit über drei Jahren lebe ich wieder in Göttingen. In meiner Freizeit reise ich sehr gern und suche immer wieder neue Herausforderungen. Besonders genieße ich Urlaube auf dem Rennrad, bei denen ich den Kopf frei bekomme und neue Perspektiven einnehmen kann. Als leidenschaftlicher Triathlet starte ich für den ASC Göttingen in der Triathlon-Liga. Obwohl Triathlon ein Einzelsport ist, ist mir der Zusammenhalt im Team besonders wichtig: Gemeinsam trainieren, Ziele verfolgen und Erfolge feiern. Diesen Teamgeist bringe ich auch in die Zusammenarbeit mit meinen Kunden ein. Offenheit für Neues, Neugier und ein strukturierter Ansatz helfen mir, gemeinsam mit meinen Kunden praktikable und nachhaltige Lösungen zu entwickeln.
 
 <div class="section__header pb-4"><span class="text-blue-500">Sie können auf</span> mich zählen</div>
 
@@ -13,6 +13,5 @@ Mit Halpneun Solutions bringe ich dieses Know-how gezielt in mittelständischen 
 
 Sie können auf mich zählen.
 
-Mit freundlichen Grüßen
-
+Mit freundlichen Grüßen<br>
 Lukas Papenfuß

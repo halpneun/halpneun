@@ -1,7 +1,7 @@
 ---
 title: About Me
 ---
-I was born in Herzberg am Harz and my roots are in Göttingen since my bachelor's degree. I completed my master's in Leipzig. I also like to travel – in Germany and beyond. In my free time, I am a triathlet and I love to spend my holidays on the race bike – in Switzerland, Italy, or wherever the road takes me. For me, triathlon is not just about effort, it is also a team sport: I compete with the ASC Göttingen in the triathlon league and like to train with others. To balance sport and work, I play the piano. I am always open to new things and enjoy combining different interests.  
+I am originally from Herzberg am Harz and studied in Göttingen and Leipzig. I have been living in Göttingen again for over three years. In my free time, I enjoy traveling and taking on new challenges. I especially like cycling trips on vacation, which help me clear my mind and see things from a new perspective. I am also a passionate triathlete and compete for ASC Göttingen in the Triathlon League. Even though triathlon is an individual sport, teamwork is very important to me: training together, reaching goals, and celebrating successes. I bring the same team spirit to my work with clients. Being curious, open to new ideas, and organized helps me create practical and lasting solutions together with my clients.
 
 <div class="section__header pb-4"><span class="text-blue-500">You can count</span> on me</div>
 
