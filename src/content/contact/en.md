@@ -21,7 +21,7 @@ Get in touch here: **[info@halpneun.de](mailto:kontakt@halpneun.de)**
 <p style="display:flex; align-items:center; gap:0.3em;">
     Feel free to connect with me on LinkedIn:
     <a href="https://www.linkedin.com/company/72084232" target="_blank">
-        <img src="src/images/linkedin-brands-white.png" alt="LinkedIn HALPNEUN Solutions" style="height:1em; width:auto;">
+        <img src="/icons/linkedin-brands-white.png" alt="LinkedIn HALPNEUN Solutions" style="height:1em; width:auto;">
     </a>
 </p>
 
